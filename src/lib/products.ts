@@ -49,14 +49,14 @@ export const productCategories: ProductCategory[] = [
     label: "Conveyors",
     slug: "conveyors",
     imageFolder: "conveyors",
-    submenu: [{ label: "Conveyors", slug: "conveyors" }],
-    images: [
+    submenu: [{ label: "Conveyors", slug: "conveyors" ,images: [
           "con_1.jpg",
           "con_2.jpg",
           "con_3.jpg",
           "con_4.jpg",
           "con_5.jpg",
-        ], 
+        ],}],
+     
   },
   {
     label: "Fabrications",
@@ -77,7 +77,6 @@ export const productCategories: ProductCategory[] = [
         label: "Machine Shop Work Stations",
         slug: "machine-shop-work-stations",
         imageFolder: "msw",
-        images: ["machineshop.png", "machineshop1.png"],
          images: [
           "mw_1.jpg",
           "mw_2.jpg",
